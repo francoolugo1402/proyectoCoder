@@ -4,121 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muebles ML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="headerIndex">
-        <a class="logo">
-        <img src="./assets/img/logo.jpg" alt="">
-        </a>
-        <nav >
-            <ul class="navbar">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./pages/cocina.html">Cocina</a></li>
-                <li><a href="./pages/comedor.html">Comedor</a></li>
-                <li><a href="./pages/dormitorios.html">Dormitorio</a></li>
-                <li><a href="./pages/living.html">Living</a></li>
-            </ul> 
-            </nav> 
-            <a class="ig">
-                <img src="./assets/img/Instagram.png" alt="">
-            </a>
-            <a class="wpp">
-                <img src="./assets/img/WhatsApp.png" alt="">
-            </a>
+    <header class="headerIndex container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo.jpg" alt="Logo" class="img-fluid" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/cocina.html">Cocina</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/comedor.html">Comedor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/dormitorios.html">Dormitorio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/living.html">Living</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="./assets/img/Instagram.png" class="img-fluid" alt="Instagram" style="height: 30px;">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="./assets/img/WhatsApp.png" class="img-fluid" alt="WhatsApp" style="height: 30px;">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section class="sectionPrincipal">
-            <div>   
-                <button>ver productos</button>
+        <section class="sectionPrincipal container-fluid px-0 mb-4">
+            <div class="row">
+                <div> 
                 <a >
-                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="col-12" class="img-fluid" alt="">
                 </a>    
-            </div>     
-                <div class="titulo">
+                <button>ver productos</button>
+                </div>     
+                <div class="d-flex justify-content-center">
                 <h1>productos</h1>
                 </div>
+            </div>
         </section>
-        <section class="productos">
-            <article>
-                <a>
-                    <img src="./assets/img/cocina.png" alt="">
-                </a>
+        <section class="productos container-fluid mb-4">
+            <div class="row">
+            <article class="col-3">
+                
+                    <img src="./assets/img/cocina.png" class="img-fluid" alt="">
+                
                 <a href="./pages/cocina.html" target="_blank">  
                     <button>ver muebles cocina</button>
                 </a> 
             </article>
             
-            <article>
+            <article class="col-3">
                 <a class="mesa">
-                    <img src="./assets/img/Rectangle 5.png" alt="">
+                    <img src="./assets/img/Rectangle 5.png" class="img-fluid" alt="">
                 </a>
                 <a href="./pages/comedor.html" target="_blank">
                     <button>ver muebles comedor</button>
                 </a>    
             </article>
             
-            <article>
-                <a>
-                    <img src="./assets/img/Rectangle 4.png" alt="">
-                </a>
+            <article class="col-3">
+                
+                    <img src="./assets/img/Rectangle 4.png" class="img-fluid" alt="">
+                
                 <a href="./pages/dormitorios.html" target="_blank">
                     <button>ver muebles dormitorio</button>
                 </a>    
             </article>
             
-            <article>
-                <a>
-                    <img src="./assets/img/Rectangle 3.png" alt="">
-                </a>
+            <article class="col-3">
+        
+                    <img src="./assets/img/Rectangle 3.png" class="img-fluid" alt="">
+                
                 <a href="./pages/living.html" target="_blank"> 
                     <button>ver muebles living</button>
                 </a> 
             </article>
-
-        
+            </div>
         </section>
-        <section class="sectionDescription">
-            <h2>nuestros muebles</h2>
-            <div class="descriptionContainer">
-                <a class="img">
-                    <img src="./assets/img/fondo.webp" alt="">
-                </a>
-                <div class="textDescription">       
+        <section class="sectionDescription container-fluid mb-4">
+            
+            <h2 class="d-flex justify-content-center">nuestros muebles</h2>
+            <div class="row">
+                
+                    <img src="./assets/img/fondo.webp" class="col-6" alt="">
+                
+                <div class="col-6">       
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus cumque porro minima dolorum quam laborum amet, quidem eaque veniam commodi perferendis unde deserunt atque dignissimos consequatur quaerat eum, quasi nihil. Numquam fugit commodi exercitationem, excepturi maxime facilis ad ab dignissimos ex quos praesentium dolore nihil dolores eius eaque adipisci optio! Iusto omnis iure repellat voluptatibus veniam voluptatem eveniet tenetur voluptate.
                         Error voluptatibus, aperiam assumenda cumque non mollitia voluptas quia officia quos neque consequuntur nisi totam id, impedit a ex odio quod nihil accusantium. Corrupti ad distinctio earum hic. Possimus, magni!
+                        Quos a vel qui? Ratione facere tempora perspiciatis dolore officiis! Animi iste beatae nam ipsum provident libero voluptates laudantium, excepturi vero delectus deleniti voluptas ex rerum id voluptate quod et!arum hic. Possimus, magni!
+                        Quos a vel qui? Ratione facere tempora perspiciatis dolore officiis! Animi iste beatae nam ipsum provident libero voluptates laudantium, excepturi vero delectus deleniti voluptas ex rerum id voluptate quod et!arum hic. Possimus, magni!
                         Quos a vel qui? Ratione facere tempora perspiciatis dolore officiis! Animi iste beatae nam ipsum provident libero voluptates laudantium, excepturi vero delectus deleniti voluptas ex rerum id voluptate quod et!
                     </p>
                 </div>
             </div>
+            
         </section>
     
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     </body>
 
-<footer>
-    <section class="footerD">
-        <div class="footerLeft">
-            <ul class="listFooter">
-                <li>terminos y condiciones</li>
-                <li>preguntas frecuentes</li>
-                <li>boton de arrepentimiento</li>
+<footer class="container-fluid ">
+    <section class="row text-center text-md-start">
+        <div class="col-12 col-md-4 mb-3 mb-md-0">
+            <ul class="list-unstyled">
+                <li>Términos y condiciones</li>
+                <li>Preguntas frecuentes</li>
+                <li>Botón de arrepentimiento</li>
             </ul>
         </div>
-        <div class="footerMid">
-            <p>diseños exclusivos desde 2007</p>
-            <div class="mail">
-                <a href="ventas@lamuebleriaml.com.ar">
-                    <img src="./assets/img/email.png" alt="Email">
-                </a>
-                <p>ventas@lamuebleriaml.com.ar</p>
+        <div class="col-12 col-md-4 mb-3 mb-md-0 d-flex flex-column align-items-center">
+            <p>Diseños exclusivos desde 2007</p>
+            <div class="d-flex align-items-center">
+                <img src="./assets/img/email.png" alt="Email" class="me-2">
+                <p class="mb-0">ventas@lamuebleriaml.com.ar</p>
             </div>
         </div>
-        <div class="footerRight">
-            <p class="copyright">© 2024 Muebles ML. Todos los derechos reservados</p>
+        <div class="col-12 col-md-4 d-flex align-items-end justify-content-end">
+            <p class="mb-0">© 2024 Muebles ML. Todos los derechos reservados</p>
         </div>
     </section>
 </footer>
+
 
 </html>
