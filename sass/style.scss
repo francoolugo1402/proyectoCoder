@@ -1,0 +1,21 @@
+@import"./utilities/maps";
+@import"./utilities/mixins";
+@import"./utilities/variables";
+
+
+
+@import "./base/resets";
+@import "./base/fonts";
+
+
+@import "./layout/header";
+
+@import"./layout/sectionsPrincipal";
+
+@import"./layout/productos";
+
+@import"./layout/sectionProductos"; /*cocina,living,dormitorios,comedor*/
+
+@import"./layout/footer";
+
+

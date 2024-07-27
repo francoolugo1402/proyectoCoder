@@ -1,0 +1,14 @@
+.sectionProductos{
+    background-color: map-get($colores , fondoPrincipal);
+img{
+    width: 32.75rem;   
+    height: 20.75rem;
+}
+button{
+    @include boton(8.375rem,none,map-get($colores , fondoSecundario),none,none,none,none,none,0.9rem 2.7125rem);
+
+}
+}
+.btn-primary {
+    color: #000;
+}

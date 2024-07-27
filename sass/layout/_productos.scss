@@ -1,0 +1,13 @@
+.productos{
+    button{
+    @include boton(70px,none,map-get($colores , fondoPrincipal),pointer,none,none,none,none,30px 20px);
+    border: .25rem solid map-get($colores , fondoPrincipal);
+    display: flex;
+    text-decoration: none;
+    }
+img{
+    width: 12.5rem;   
+    height: 11.25rem;
+    
+}
+}

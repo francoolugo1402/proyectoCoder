@@ -1,101 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
-*{
+* {
+  font-family: "IM Fell Double Pica SC", serif; }
 
-    font-family: "IM Fell Double Pica SC", serif;
-}
-.headerIndex{
-/* width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;*/
-    background-color: #D9D9D9; /*SE QUEDA*/
+.headerIndex {
+  background-color: #D9D9D9; }
+  .headerIndex img {
+    width: 8rem 8rem; }
 
-    
-}
-.headerIndex a img{
-    width: 8rem 8rem;
-
-} 
-.navbar{
-    /*display: flex;
-    gap: 150px;*/
-    list-style: none;/*SE QUEDA*/
-    
-}
-.navbar li a{
+.navbar {
+  list-style: none; }
+  .navbar li {
     font-size: 1.5em;
     text-decoration: none;
-    color: black
-    /*SE QUEDA*/
-    ;
-}
+    color: black; }
 
-.sectionPrincipal img{
-    position: relative;
-    height: 43.75rem; 
-}
-.sectionPrincipal button{
-border-radius: 11.25rem;
-font-size: 3.2rem;                  
-background-color: #CAAB7C;
-cursor: pointer;
-position: absolute;
-top: 50%;
-left: 50%;              /*REVISAR*/
-transform: translate(-50%, -50%);
-}
+.sectionPrincipal img {
+  position: relative;
+  height: 43.75rem; }
 
-/*.productos{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;  REVISAR
-    padding: 100px;
-    gap: 7.5rem;
-    }*/
-    
-.productos button{
-    padding: 30px 20px;
-    border: .25rem solid #CAAB7C;
-    border-radius: 70px ;
-    background-color: #CAAB7C;  /*SE QUEDA*/
-    display: flex;
-    cursor: pointer;
-    text-decoration: none;
-    
-    
+.sectionPrincipal button {
+  border-radius: 11.25rem;
+  font-size: 3.2rem;
+  background-color: #CAAB7C;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: none; }
 
-}
+.sectionDescription {
+  background-color: #CAAB7C; }
 
-.productos img{
-    width: 12.5rem;   /*REVISAR*/
-    height: 11.25rem;
-    
-}
+.productos button {
+  border-radius: 70px;
+  font-size: none;
+  background-color: #CAAB7C;
+  cursor: pointer;
+  position: none;
+  top: none;
+  left: none;
+  transform: none;
+  padding: 30px 20px;
+  border: 0.25rem solid #CAAB7C;
+  display: flex;
+  text-decoration: none; }
 
-.sectionDescription{
-    background-color: #CAAB7C; /*SE QUEDA*/
-}
-footer ul{
-    list-style: none;
-}
+.productos img {
+  width: 12.5rem;
+  height: 11.25rem; }
 
-
-/**************************************************************************************/
-.sectionProductos{
-    background-color: #CAAB7C; /*SE QUEDA*/
-}
-.sectionProductos img{
-    width: 32.75rem;   /*REVISAR*/
-    height: 20.75rem;
-}
-
-.sectionProductos button{
-    padding: 0.9rem 2.7125rem;
-     /*SE QUEDA */
-    border-radius: 8.375rem ;
+.sectionProductos {
+  background-color: #CAAB7C; }
+  .sectionProductos img {
+    width: 32.75rem;
+    height: 20.75rem; }
+  .sectionProductos button {
+    border-radius: 8.375rem;
+    font-size: none;
     background-color: #D9D9D9;
-}
+    cursor: none;
+    position: none;
+    top: none;
+    left: none;
+    transform: none;
+    padding: 0.9rem 2.7125rem; }
+
 .btn-primary {
-    color: #000;
-}
+  color: #000; }
+
+/*cocina,living,dormitorios,comedor*/
+footer {
+  background-color: #D9D9D9; }
+  footer ul {
+    list-style: none; }

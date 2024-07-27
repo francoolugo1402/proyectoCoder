@@ -1,0 +1,11 @@
+.sectionPrincipal{
+    img{
+    position: relative;
+    height: 43.75rem; 
+}
+button{
+@include boton(11.25rem,3.2rem,map-get($colores,fondoPrincipal),pointer,absolute,50%,50%,translate(-50%, -50%),none)
+}}
+.sectionDescription{
+    background-color: map-get($colores , fondoPrincipal);
+}

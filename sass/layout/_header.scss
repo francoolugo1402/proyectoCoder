@@ -1,0 +1,16 @@
+.headerIndex{
+    background-color: map-get($colores , fondoSecundario );
+img{
+    width: 8rem 8rem;
+
+} 
+}
+.navbar{
+
+    list-style: none;
+    li {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black 
+}
+}
