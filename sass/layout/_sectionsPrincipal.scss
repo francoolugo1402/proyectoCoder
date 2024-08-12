@@ -1,11 +1,72 @@
-.sectionPrincipal{
-    img{
+/* Asegúrate de que el contenido se ajuste correctamente */
+@media (max-width: 768px) {
+    .sectionPrincipal img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .sectionPrincipal button {
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .sectionDescription img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sectionDescription .row {
+        flex-direction: column;
+    }
+
+
+}
+
+/* Mantener los colores y estilos de los botones */
+
+
+/* Ajustes para la imagen principal */
+.sectionPrincipal {
     position: relative;
-    height: 43.75rem; 
+    text-align: center;
 }
-button{
-@include boton(11.25rem,3.2rem,map-get($colores,fondoPrincipal),pointer,absolute,50%,50%,translate(-50%, -50%),none)
-}}
-.sectionDescription{
-    background-color: map-get($colores , fondoPrincipal);
+
+.sectionPrincipal img {
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    max-width: 100%; /* No dejar que se salga del contenedor */
+    height: auto;
+    margin: auto;
 }
+
+/* Botón proporcional a la imagen */
+.sectionPrincipal button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #CAAB7C; /* Cambia según el color deseado */
+    color: black;
+    border: none;
+    padding: 2vw 4vw; /* Tamaño del botón proporcional al tamaño de la imagen */
+    font-size: 2vw; /* Tamaño de fuente proporcional al tamaño de la imagen */
+    max-width: 200px; /* Tamaño máximo del botón */
+    border-radius: 120px;
+    cursor: pointer;
+
+}
+
+
+
+/* Fondo de la página */
+.sectionDescription {
+    background-color: #CAAB7C;
+}
+
+/* Ajuste de texto en secciones */
+.sectionDescription p {
+    font-size: 16px;
+    
+}
+
