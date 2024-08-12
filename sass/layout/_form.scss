@@ -1,0 +1,19 @@
+
+.formPrincipal{
+    background-color: #CAAB7C;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.medidaForm {
+    width: 50%;
+    font-size: 1.2rem;
+    }
+    .medidaForm textarea{       
+        height: 10rem;
+    }
+    
+    .formCompleto{
+        background-color: map-get($colores , fondoPrincipal );
+    }

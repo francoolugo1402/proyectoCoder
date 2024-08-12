@@ -96,28 +96,17 @@
 .btn-primary {
   color: #000; }
 
-/*cocina,living,dormitorios,comedor*/
-.medidaForm {
-  width: 50%;
-  font-size: 1.2rem; }
+.productosPrincipal {
+  background-color: #CAAB7C;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
-.medidaForm textarea {
-  /* desde medida form hasta form completo (inclusive) es de contactos*/
-  height: 10rem; }
-
-.formCompleto {
-  background-color: #CAAB7C; }
-
-.carru {
-  background-color: #CAAB7C; }
-
-@media (max-width: 768px) {
-  .carru {
-    flex-direction: column; } }
-
-/********************/
 .containerPreguntas {
-  background-color: #CAAB7C; }
+  background-color: #CAAB7C;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 .faq-container {
   max-width: 800px;
@@ -157,7 +146,35 @@ summary {
 details[open] .faq-question {
   color: black; }
 
-/*************************/
+.formPrincipal {
+  background-color: #CAAB7C;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.medidaForm {
+  width: 50%;
+  font-size: 1.2rem; }
+
+.medidaForm textarea {
+  height: 10rem; }
+
+.formCompleto {
+  background-color: #CAAB7C; }
+
+.carruPrincipal {
+  background-color: #CAAB7C;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.carru {
+  background-color: #CAAB7C; }
+
+@media (max-width: 768px) {
+  .carru {
+    flex-direction: column; } }
+
 @media (max-width: 768px) {
   .carru {
     flex-direction: column;
